@@ -284,9 +284,11 @@ fi
 # GI repository
 prepend_dir GI_TYPELIB_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH/girepository-1.0"
 prepend_dir GI_TYPELIB_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/girepository-1.0"
+prepend_dir GI_TYPELIB_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH/girepository-1.0"
 prepend_dir GI_TYPELIB_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/gjs/girepository-1.0"
 prepend_dir GI_TYPELIB_PATH "$SNAP/usr/lib/$ARCH/girepository-1.0"
 prepend_dir GI_TYPELIB_PATH "$SNAP/usr/lib/girepository-1.0"
+prepend_dir GI_TYPELIB_PATH "$SNAP/usr/lib/$ARCH/gjs/girepository-1.0"
 prepend_dir GI_TYPELIB_PATH "$SNAP/usr/lib/gjs/girepository-1.0"
 
 # Keep an array of data dirs, for looping through them
